@@ -1,0 +1,119 @@
+Acid properties
+======
+Atomicity
+Consistency
+Isolation
+Durability
+
+
+
+Relational properties
+===
+1. One to One Relationship
+2. Many to One Relationship
+3. One to Many Relationship
+4. Many to Many Relationship
+
+
+Relational DBs or SQL databases
+
+=======================
+
+MySql
+DB2(IBM)
+Postgre
+Oracle
+H2
+HSQL
+SQLServer etc.,
+
+
+
+Here DAta is categorized in to differret tables called as Relations 
+Each Relation or Table or Entity inclues set of rows amd columns.
+Each column holds attribute of the entity
+
+
+EXAMPLE
+======
+Customer=>customerid, customername, customernum
+
+Customer => Entity => Table => Relation
+customerid,customername ,m => attributes of entity => columns
+values of above attributes are stored as row => tuple => which holds all the details of a entity as a row
+Degree of a Table or Relation => number of attributes in a table
+cardinality => number of rows/tuples in the table
+
+The above generates all relationships or Associations  like 
+one to one
+one to many
+many to one
+many to many
+
+
+Components of DBMS
+=================
+Hardware => Dssk and RAM,keyboard,monitor etc,
+Software => Mysql or Oracle
+Data => Information collected 
+Procedures => Rules that help in using DBMS
+DB Access Language => Query Language to perform operations like create,read,update and delete
+
+
+
+Normalzation== To delete redundant data or duplicate data as to aquire for data interity
+
+
+
+
+SQL(Structured 	Query    LAnguage)
+
+DDL(DATA DEFINITIO LANGUAGE)=======create  or remove and change table in database
+====
+create
+alter
+drop
+truncate
+
+
+
+DML(DATA MANIPULATION LANGUAGE)====create or remove or change values in table
+==========
+insert
+update
+delete
+
+
+
+DCL(DATA CONTROL LANGUAGE)=====set privilages for accessing database
+==
+grant
+revoke
+
+
+TCL(TRABSACTION CONTROL lan)===commit or roll back the database
+commit
+rollback
+savepoint
+
+DQL(DATA QUERY LAN)====retrive the data using select statement
+=======
+select
+
+DATATYPES
+int ,tinyint,smallint,mediumint,bigint,float(m,d),double(m,d),decimal(m,d),bit(m),bool,boolean
+
+char(size),varchar(size),Tinytext,text,mediumtext,longtext,binary,varbinday,enum
+
+BLOB (Binary Large Object Data Types)
+================================
+Tinybolb = 255 bytes
+blob = 65,535 bytes
+mediumblob = 16,777,215 bytes
+longblob = 4gb
+
+
+
+
+
+
